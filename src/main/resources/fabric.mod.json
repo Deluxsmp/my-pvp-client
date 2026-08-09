@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "pvpclient",
+  "version": "1.0.0",
+  "name": "Advanced PvP Client",
+  "description": "Ghost client style PvP automation and utility mod.",
+  "authors": ["Developer"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pvpclient.PvPClientMod"
+    ]
+  },
+  "mixins": [
+    "pvpclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.x",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
